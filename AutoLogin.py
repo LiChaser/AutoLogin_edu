@@ -51,6 +51,14 @@ class AutoLogin:
                 print("请输入打卡地址payload，如不清楚私信我获取")
                 exit()
             headers = {
+                'User-Agent': "Mozilla/5.0 (Licharse is here); colorScheme/dark",
+                'Accept': "application/json, text/plain, */*",
+                'Content-Type': "application/x-www-form-urlencoded",
+                'X-Requested-With': "com.alibaba.android.rimet",
+                'Sec-Fetch-Site': "same-origin",
+                'Sec-Fetch-Mode': "cors",
+                'Sec-Fetch-Dest': "empty",
+                'Accept-Language': "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
                 'Cookie': "EMAP_LANG=zh; _WEU="+Success_cookie
             }
 
